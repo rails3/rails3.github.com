@@ -1,0 +1,70 @@
+/* RESETS */
+*, html, body, div, ul, ol, li, h1, h2, h3, h5, h5, h6, p {margin:0; padding:0}
+h1, h2, h3, h5, h5, h6  {font-size:100%}
+fieldset, img           {border:0}
+ol, ul, li              {list-style:none}
+strong                  {font-weight: bold}
+ol, ul, li              {list-style:none}
+* a                     {position:relative} 
+a                       {outline:none}        
+a img                   {border:none}     
+
+/* COLORS */
+body                    {background-color: #ffffff;}
+h1, h2                  {background-color: #53c265;}
+img                         {border-color: #53c265;}
+#footer                 {background-color: #f4f0e5;}
+.episodes > li              {border-color: #f9f9f9;}
+body                               {color: #334433;}
+strong                             {color: #556655;}
+a                                  {color: #2f53d3;}
+a img                       {border-color: #2f53d3;}
+a:visited                          {color: #4c5577;}
+a:visited img               {border-color: #4c5577;}
+a:hover, a:focus                   {color: #956900;}
+a:hover img, a:focus img    {border-color: #956900;}
+
+/* TYPOGRAPHY */
+body                    {font-family: 'Myriad Pro', 'Myriad', sans-serif}
+body                    {text-align: center;}
+.formats li             {text-align: left;}
+h1                      {font-size: 2.3em;}
+h2                      {font-size: 1.8em;}
+.episodes > li, #footer {font-size: 0.78em;}
+strong, .formats a.main {font-size: 1.5em;}
+.email                  {letter-spacing: -1px;}
+
+/* LAYOUT */
+.desc, strong           {display: block;}
+h1, h2, #footer         {clear: both;}
+.left                   {clear: left;}
+.right                  {clear: right;}
+.episodes > li          {float:left;}
+
+/* WIDTHS */
+h1, h2, #footer           {width: 100%;}
+/*.episodes                 {width: 960px;} */
+.episodes > li            {width: 290px; border-left-width: 1px; border-right-width: 1px; padding-left: 14px; padding-right: 14px;}
+img                       {width: 250px; margin-left: 5px; margin-right: 5px;}
+img, a img                {border-width:2px;}
+a                         {padding: 5px;}
+body, .episodes, .footer  {margin-left: auto; margin-right: auto;}
+.formats li               {margin-left: 15px; margin-right: 15px;}
+
+/* HEIGHTS */
+.episodes > li          {min-height: 240px;}
+.formats li             {min-height: 16px;}
+img                     {height: 150px;}
+body, .episodes,        
+.footer, .formats li    {margin-top: 10px; margin-bottom: 10px;}
+.episodes > li          {border-top-width: 1px; border-bottom-width: 1px; padding-top: 10px; padding-bottom: 10px;}
+img, strong             {margin-bottom: 5px; margin-top: 5px;}
+h1                      {padding-top: 10px;}
+h2                      {padding-bottom: 10px;}
+                        
+/* BORDERS */           
+.episodes > li          {border-style: dashed;}
+img, a img              {border-style: solid;}
+
+/* BULLETS */
+.formats li             {background: url(../images/download.png) center left no-repeat; padding-left: 16px;}

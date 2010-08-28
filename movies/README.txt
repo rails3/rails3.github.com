@@ -1,0 +1,1 @@
+Movies are served from http://s3.amazonaws.com/rails3/
