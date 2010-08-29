@@ -1,1 +1,0 @@
-http://rails3.github.com
