@@ -43,7 +43,7 @@ h1, h2, #footer         {clear: both;}
 
 /* WIDTHS */
 h1, h2, #footer           {width: 100%;}
-/*.episodes                 {width: 960px;} */
+.episodes                 {width: 960px;}
 .episodes > li            {width: 290px; border-left-width: 1px; border-right-width: 1px; padding-left: 14px; padding-right: 14px;}
 img                       {width: 250px; margin-left: 5px; margin-right: 5px;}
 img, a img                {border-width:2px;}
